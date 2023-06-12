@@ -94,7 +94,7 @@ body {
   height: 300px;
 }
 
-.tab-element {
+.tab-elements {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -220,7 +220,7 @@ body {
     width: 100;
     height: 25px;
   }
-  .score-none {
+  .score-name {
     font-size: 12px;
   }
   .score {
@@ -279,5 +279,9 @@ body {
   }
   .your-score {
     font-size: 32px;
+  }
+  .play-button {
+    width: 120px;
+    font-size: 12px;
   }
 }

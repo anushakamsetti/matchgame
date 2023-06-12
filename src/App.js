@@ -1,3 +1,4 @@
+import {Component} from 'react'
 import './App.css'
 
 // These are the lists used in the application. You can move them to any component needed.
@@ -247,7 +248,7 @@ const imagesList = [
 ]
 
 // Replace your code here
-const App extends Component {
+ class App extends Component {
     state = {
         isTrue: false,
         category: 'FRUIT',
@@ -378,7 +379,7 @@ const App extends Component {
                                className="trophy-image"
                                alt="trophy"
                                />
-                               <p className="main-heading">YOUR SECOND</p>
+                               <p className="main-heading">YOUR SCORE</p>
                                <p className="your-score">{score}</p>
                                <button 
                                type="button"
